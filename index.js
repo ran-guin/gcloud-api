@@ -13,4 +13,4 @@ app.get('/status', (req, res) => res.send('Working!'));
 app.use('/', root);
 app.use('/api', api);
 
-app.listen(3000, () => console.log('Example app listening on port 3000!'));
+app.listen(8080, () => console.log('Example app listening on port 8080!'));
